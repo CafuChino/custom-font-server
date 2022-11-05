@@ -1,0 +1,25 @@
+{
+  "name": "font-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.ts",
+    "build": "tsc",
+    "start": "node ./dist/src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^12.0.0",
+    "@types/koa__router": "^12.0.0",
+    "fontmin": "^0.9.9",
+    "koa": "^2.13.4",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "@types/fontmin": "^0.9.0",
+    "@types/koa": "^2.13.5"
+  }
+}
